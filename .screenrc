@@ -1,0 +1,33 @@
+startup_message off
+#shell bash
+defscrollback 1000
+hardstatus alwayslastline
+hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}'
+
+# PREVIOUS WINDOW
+# Ctrl + Alt + Left from gnome-terminal
+bindkey ^[[1;7C prev
+# Ctrl+Alt+Left from putty
+bindkey ^[^[[D prev
+# NEXT WINDOW
+# Ctrl + Alt + Right from gnome-terminal
+bindkey ^[[1;7D next
+# Ctrl+Alt+Right from putty
+bindkey ^[^[[C next
+
+bind  ! select 11
+bind  @ select 12
+bind \# select 13
+bind  $ select 14
+bind  % select 15
+bind \^ select 16
+bind  & select 17
+bind  * select 18
+bind  ( select 19
+bind  ) select 10
+
+# Zwiazane z przewijaniem
+termcapinfo xterm* ti@:te@
+# Czyszczenie okna gdy wychodzi z VIMa
+altscreen on
+
