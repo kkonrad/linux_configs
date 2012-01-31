@@ -1,2 +1,6 @@
 There will be some notes
 
+isntall Pyflakes:
+from bundle/pyflakes-vim:
+git clone --recursive git://github.com/kevinw/pyflakes-vim.git
+
