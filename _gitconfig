@@ -1,0 +1,14 @@
+[user]
+	name = Konrad K
+	email = 
+[core]
+	editor = vim
+#[diff]
+#	external = /home/konrad/.gmeld.sh
+[color]
+    branch = auto
+    diff = auto
+    grep = auto
+    interactive = auto
+    status = auto
+    ui = auto
